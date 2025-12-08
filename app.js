@@ -7,10 +7,23 @@ window.onload = () => {
 const grid = document.querySelector('.grid');
 const masonry = new Masonry (grid, { 
     itemSelector: '.grid-item',
-    columnWidth: 80,
-    gutter:40,
+    columnWidth: '.grid-sizer',
+    percentPosition: true,
+    gutter: 20
 
   });
 
 };
 
+
+// //Wait for all images to Load
+// const $grid = $('.grid').imagesLoaded(() => {
+// //Activate Masonry Grid
+// $('.grid').masonry({
+// //Select items
+// itemSelector: '.grid-item',
+// //Set width
+// columnWidth: 80,
+// fitWidth: true,
+// })
+// });

@@ -28,23 +28,31 @@ nav a {
   color: #000;
 }
 
-.grid {
-  padding: 20px;
+.grid-wrapper {
+  width: 100%;          /* use full available space */
+  margin: 0;       /* center the entire layout */
+  padding: 0 25px;      /* equal spacing on left and right */
+  box-sizing: border-box;
 }
 
-/* .grid img { */
-/*   width: 100%; */
-/*   display: block; */
-/*   margin-bottom: 20px; */
-/*   break-inside: avoid-column; */
-/* } */
+/* Masonry gutters */
+.grid {
+  margin: 0 auto;
+}
 
+/* 4 columns, gutter = 20px */
+.grid-sizer,
+.grid-item {
+  width: calc(25% - 20px);
+}
 
-.grid-sizer,.grid-item {
-  width: 20%;
-  img{
-      width: 100%
-  }
+.grid-item {
+  margin-bottom: 20px; /* vertical spacing */
+}
+
+.grid-item img {
+  width: 100%;
+  display: block; /* fixes weird gaps under images */
 }
 /* @media (max-width: 1200px) { */
 /*   .grid { column-count: 3; } */
