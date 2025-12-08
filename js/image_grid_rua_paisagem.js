@@ -111,7 +111,7 @@
 
         const img = document.createElement("img");
         img.src = `fotos/Rua_Paisagem/${file}`;
-        img.loading = "lazy";
+        // img.loading = "lazy";
 
         div.appendChild(img);
         grid.appendChild(div);

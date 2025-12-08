@@ -67,7 +67,7 @@
 
         const img = document.createElement("img");
         img.src = `fotos/NL_Concerto/${file}`;
-        img.loading = "lazy";
+        // img.loading = "lazy";
 
         div.appendChild(img);
         grid.appendChild(div);
