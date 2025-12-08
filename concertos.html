@@ -12,7 +12,11 @@
     <h1>Bruno Silva</h1>
     <nav>
       <a href="." class="active">Retratos</a>
-      <!-- <a href="vida_noturna.">Vida Noturna</a> -->
+
+      <a href="concertos" class="active">Concertos</a>
+      <a href="ambiente" class="active">Night Life</a>
+
+
       <a href="galas">Galas</a>
       <a href="rua_paisagem">Fotografia de rua e Paisagens</a>
       <a href="contacto">Contacta-me</a>
@@ -20,11 +24,17 @@
     </nav>
   </header>
 
-  <div class="grid">
-    <!-- Vida Noturna images -->
-    <img src="https://picsum.photos/id/1050/800/700" loading="lazy">
-    <img src="https://picsum.photos/id/1060/800/1000" loading="lazy">
-  </div>
+<div class="grid-wrapper">
+  <div class="grid" id="grid">
+      <div class="grid-sizer"></div>
+    </div>
+</div>
+
+<script src="js/image_grid_concertos.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
+      <script type="module" src="js/convert_to_mansory.js"></script>
+
 
 </body>
 </html>

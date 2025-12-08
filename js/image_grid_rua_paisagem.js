@@ -1,0 +1,119 @@
+
+  // <script>
+    // List of image filenames inside /fotos/retratos/
+    const imageFiles = [
+"IMG_0293.jpg",
+"IMG_0329.jpg",
+"IMG_0361.jpg",
+"IMG_0368.jpg",
+"IMG_0385.jpg",
+"IMG_0386.jpg",
+"IMG_0393.jpg",
+"IMG_0420.jpg",
+"IMG_0457.jpg",
+"IMG_0703.jpg",
+"IMG_0706.jpg",
+"IMG_0723.jpg",
+"IMG_0805.jpg",
+"IMG_1510.jpg",
+"IMG_1787.jpg",
+"IMG_2111-2.jpg",
+"IMG_2111.jpg",
+"IMG_2127.jpg",
+"IMG_2515.jpg",
+"IMG_2652.jpg",
+"IMG_2731.jpg",
+"IMG_2744.jpg",
+"IMG_2786.jpg",
+"IMG_2962.jpg",
+"IMG_3018.jpg",
+"IMG_3125.jpg",
+"IMG_3339.jpg",
+"IMG_3423.jpg",
+"IMG_4211.jpg",
+"IMG_4461.jpg",
+"IMG_4519.jpg",
+"IMG_4547.jpg",
+"IMG_4679.jpg",
+"IMG_4792.jpg",
+"IMG_4849.jpg",
+"IMG_4854.jpg",
+"IMG_4857.jpg",
+"IMG_4875.jpg",
+"IMG_4903.jpg",
+"IMG_4913.jpg",
+"IMG_4914.jpg",
+"IMG_4980.jpg",
+"IMG_4988.jpg",
+"IMG_5040.jpg",
+"IMG_5057.jpg",
+"IMG_5069.jpg",
+"IMG_5132.jpg",
+"IMG_5157.jpg",
+"IMG_5208-Edit-2.jpg",
+"IMG_5242.jpg",
+"IMG_5244.jpg",
+"IMG_5291.jpg",
+"IMG_5306.jpg",
+"IMG_5343.jpg",
+"IMG_5493.jpg",
+"IMG_5500.jpg",
+"IMG_5582.jpg",
+"IMG_5601.jpg",
+"IMG_5604.jpg",
+"IMG_5607.jpg",
+"IMG_5698.jpg",
+"IMG_6583.jpg",
+"IMG_6678.jpg",
+"IMG_6679.jpg",
+"IMG_6746.jpg",
+"IMG_7641-Enhanced-NR.jpg",
+"IMG_7746-Enhanced-NR.jpg",
+"IMG_7763-Enhanced-NR.jpg",
+"IMG_7769-Enhanced-NR.jpg",
+"IMG_7771-Enhanced-NR.jpg",
+"IMG_7781.jpg",
+"IMG_7810.jpg",
+"IMG_7846.jpg",
+"IMG_7857.jpg",
+"IMG_8057.jpg",
+"IMG_8163.jpg",
+"IMG_8171.jpg",
+"IMG_8172-Enhanced-NR.jpg",
+"IMG_8661.jpg",
+"IMG_9008-Edit.jpg",
+"IMG_9044-Edit.jpg",
+"IMG_9206.jpg",
+"IMG_9290.jpg",
+"IMG_9356.jpg",
+"IMG_9379-Edit.jpg",
+"IMG_9409-Enhanced-NR-Edit.jpg",
+"IMG_9414-Edit.jpg",
+"IMG_9415-Edit.jpg",
+"IMG_9416-Edit.jpg",
+      // Add more filenames here
+    ];
+
+    // const grid = document.getElementById("grid");
+    //
+    // imageFiles.forEach(file => {
+    //   const img = document.createElement("img");
+    //   img.src = `fotos/Retrato/${file}`;
+    //   img.loading = "lazy";
+    //   grid.appendChild(img);
+    // });
+
+      const grid = document.getElementById("grid");
+
+      imageFiles.forEach(file => {
+        const div = document.createElement("div");
+        div.className = "grid-item";
+
+        const img = document.createElement("img");
+        img.src = `fotos/Rua_Paisagem/${file}`;
+        img.loading = "lazy";
+
+        div.appendChild(img);
+        grid.appendChild(div);
+      });
+  // </script>

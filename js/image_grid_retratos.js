@@ -2,6 +2,15 @@
   // <script>
     // List of image filenames inside /fotos/retratos/
     const imageFiles = [
+                // Best
+                "IMG_3228-Edit.jpg",
+                "IMG_3210-Edit.jpg",
+                "IMG_3231-Edit-2.jpg",
+                "IMG_3237-Edit.jpg",
+                // Beach Photobomb 
+                "IMG_4496.jpg",
+                "IMG_4498.jpg",
+                "IMG_4513.jpg",
                 "IMG_0829.jpg",
                 "IMG_0833.jpg",
                 "IMG_0854.jpg",
@@ -12,7 +21,6 @@
                 "IMG_0972.jpg",
                 "IMG_0973.jpg",
                 "IMG_0977.jpg",
-                "IMG_3228-Edit.jpg",
                 "IMG_1100.jpg",
                 "IMG_1430.jpg",
                 "IMG_1431.jpg",
@@ -30,9 +38,6 @@
                 "IMG_3050.jpg",
                 "IMG_3087-Edit.jpg",
                 "IMG_3103.jpg",
-                "IMG_3210-Edit.jpg",
-                "IMG_3231-Edit-2.jpg",
-                "IMG_3237-Edit.jpg",
                 "IMG_3276.jpg",
                 "IMG_3561.jpg",
                 "IMG_3597.jpg",
@@ -43,9 +48,6 @@
                 "IMG_4150-Enhanced-NR-Edit.jpg",
                 "IMG_4153-Enhanced-NR-Edit.jpg",
                 "IMG_4158-Enhanced-NR-Edit.jpg",
-                "IMG_4496.jpg",
-                "IMG_4498.jpg",
-                "IMG_4513.jpg",
                 "IMG_5025.jpg",
                 "IMG_5059.jpg",
                 "IMG_6645.jpg",
