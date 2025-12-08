@@ -15,6 +15,10 @@ const masonry = new Masonry (grid, {
 
 };
 
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});
 
 // //Wait for all images to Load
 // const $grid = $('.grid').imagesLoaded(() => {
