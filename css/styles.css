@@ -49,6 +49,14 @@ nav a {
 .grid-item {
   margin-bottom: 20px; /* vertical spacing */
 }
+.grid-item--gigante {
+  width: calc(50%-20px);
+  z-index: 2; /* above other items */
+}
+
+.grid-item:hover {
+  cursor: pointer;
+}
 
 .grid-item img {
   width: 100%;

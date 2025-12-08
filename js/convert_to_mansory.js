@@ -7,27 +7,19 @@ window.onload = () => {
 const grid = document.querySelector('.grid');
 const masonry = new Masonry (grid, { 
     itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
+    // columnWidth: '.grid-sizer',
     percentPosition: true,
-    gutter: 20
+    gutter: 20,
+    stagger:30,
 
   });
 
 };
 
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
-});
 
-// //Wait for all images to Load
-// const $grid = $('.grid').imagesLoaded(() => {
-// //Activate Masonry Grid
-// $('.grid').masonry({
-// //Select items
-// itemSelector: '.grid-item',
-// //Set width
-// columnWidth: 80,
-// fitWidth: true,
-// })
+// layout Masonry after each image loads
+// I dont think this is working
+// grid.imagesLoaded().progress( function() {
+//   $grid.masonry('layout');
 // });
+
